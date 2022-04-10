@@ -296,3 +296,15 @@ footer{
     border-radius: 3px;
     color: rgba(255, 255, 255, 0.8);
 }
+.red-button{
+    background-color: #ff0000;
+    color: #2CE660;
+}
+.blue-button{
+    background-color: #0000ff;
+    color: #E6C42C;
+}
+.color-button{
+    padding: 10px;
+    font-size: x-large;
+}
