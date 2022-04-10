@@ -31,7 +31,8 @@ header{
 .block{
     display: flex;
     flex: 0 1 50%;
-    padding-top: 15px;
+    margin-top: 10px;
+
 }
 .b1{
     padding-left: 5px;
@@ -44,9 +45,254 @@ header{
     padding-right: 15px;
 }
 .b2 .element{
-    padding-left: 15px;
+    padding-left: 30px;
+}
+.korzina{
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 5px;
+    background-image: url(https://my-avon-belarus.by/images/2020/shop.png);
+    background-repeat: no-repeat;
+    background-position: 10% 0%;
+    background-size: auto 100%;
+    color: rgba(255, 255, 255, 0.9);
+}
+.accaunt{
+    background-image: url(http://cdn.onlinewebfonts.com/svg/img_321577.png);
+    background-repeat: no-repeat;
+    background-position: 10% 0;
+    background-size: auto 80%;
+    text-align: center;
+    
+}
+.logo{
+    background-image: url(https://i.pinimg.com/originals/5a/33/ca/5a33cabad985000cb8b44cf0e4731c7c.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: auto 100%;
+    padding-left: 40px;
+    font-size: x-large;
+}
+.GEO{
+    background-image: url(https://www.clipartmax.com/png/full/294-2942793_nearby-comments-geo-fence-icon-png.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: auto 100%;
+    padding-left: 25px;
 }
 footer{
     background-color: wheat;
     height: 50px;
+}
+.menu{
+    flex-direction:column;
+}
+.nav{
+    height: 100px;
+    padding-top: 15px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+}
+.elem_nav{
+    padding-top: 50px;
+    text-align: center;
+    background-color: white;
+    height: 70px;
+    width: 90px ;
+    border-radius: 5px;
+}
+.nav .elem1{
+    background-image: url(https://goryachie-foto.net/wp-content/uploads/2019/02/favicon.png);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    background-size: auto 50%;
+}
+.nav .elem2{
+    background-image: url(https://sushi-dmitrov.ru/upload/iblock/aa1/aa117b8c88e358c603401e1a79140149.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    background-size: auto 70%;
+}
+.nav .elem3{
+    background-image: url(https://creazilla-store.fra1.digitaloceanspaces.com/emojis/55741/sushi-emoji-clipart-md.png);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    background-size: auto 50%;
+}
+.nav .elem4{
+    background-image: url(https://i.pinimg.com/originals/d7/95/aa/d795aaaaa386c4f3a4252615f8673f5b.png);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    background-size: auto 50%;
+}
+.nav .elem5{
+    background-image: url(https://i.pinimg.com/originals/11/2b/99/112b99719243c427fd585cf395690ccf.png);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    background-size: auto 50%;
+}
+.nav .elem6{
+    background-image: url(https://cdn4.iconfinder.com/data/icons/fast-food-menu-1/64/147_fast-food-menu-combo-lunch-512.png);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    background-size: auto 60%;
+}
+.nav .elem7{
+    background-image: url(https://i.pinimg.com/originals/4c/c6/1a/4cc61aa0513a99540b2fa9eae10d29f8.png);
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    background-size: auto 50%;
+}
+.nav .elem8{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1145/1145997.png);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    background-size: auto 70%;
+}
+.spec{
+    height: 250px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+}
+.spec .elem{
+    background-color: white;
+    height: 220px;
+    width: 220px ;
+    color: black;
+    border-radius: 10px;
+    font-size: medium;
+    padding: 180px 0 0 0;
+    text-align: center;
+}
+.spec .elem1{
+    
+    background-image: url(https://thumbs.dreamstime.com/b/pizza-sausage-peppers-mushrooms-arugula-tomatoes-fragrant-cheese-vector-illustration-eps-62163401.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: 0 -15px;
+    background-size: auto 100%;
+}
+.spec .elem2{
+    background-image: url(https://avatars.mds.yandex.net/i?id=a406e451e40b41270a49d11dcb390913-4264709-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: auto 100%;
+}
+.prov_addres{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.prov_addres .elem2{
+    flex-grow:1;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+.prov_addres .elem1{
+    margin: 0px 0px 0px 15px;
+}
+.prov_addres .elem3 input{
+    flex-basis:40%;
+    background-color: orangered;
+    padding: 5px 15px 5px 15px;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.prov_addres .elem{
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.pizza_bar{
+    display: flex;
+    flex-direction:column;
+}
+.pizza_bar .navig{
+    display: flex;
+    height: 50px;
+    align-items:center;
+}
+.pizza_bar .navig .elem1{
+    font-size: x-large;
+    font-weight: bold;
+}
+.pizza_bar .navig .elem2{
+    flex-basis:90%;
+    
+}
+.pizza_bar .navig .elem3{
+    background-color: white;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 3px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvZndoP3Maisi5mMEa7i_l4Xco5idlsAZ9qBy1Yi6kUJNjU2-Vn3YyJF-mjOPI9X5knaw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.pizza_bar .content{
+    display: flex;
+    height: 400px;
+    align-items:center;
+    /* background-color: aquamarine; */
+    padding: 0 1% 0 1%;
+}
+.pizza{
+    margin: 0 1% 0 1%;
+    flex: 0 1 25%;
+    background-color: white;
+    height: 370px;
+    max-width: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+}
+.pizza .elem{
+}
+.pizza .photo{
+    flex-basis:70%;
+    margin: 2%;
+    background-image: url(https://cdpiz1.pizzasoft.ru/rs/280x280/pizzafab/items/7/barbekyu-bolshaya-main_image-7176-28721.jpg);
+    background-repeat: round;
+    max-height: 240px;
+}
+.pizza .name{
+    flex-basis:10%;
+    margin: 2%;
+    margin-top: 0;
+    font-size: medium;
+    font-weight: bold;
+}
+.pizza .sostav{
+    flex-basis:10%;
+    margin: 2%;
+    margin-top: 0;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.6);
+}
+.pizza .bottoms{
+    flex-basis:10%;
+    margin: 2%;
+    margin-top: 0;
+    display: flex;
+    align-items:center;
+}
+.pizza .bottoms .price{
+    flex-basis:60%;
+    text-align: end;
+    align-items:center;
+    color: orange;
+    font-weight: bold;
+}
+.pizza .bottoms input{
+    flex-basis:40%;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.8);
 }
