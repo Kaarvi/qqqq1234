@@ -77,7 +77,7 @@ footer{
     display:flex;
     flex-direction:row;
     align-items:center;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 .elem_nav{
     padding-top: 10px;
@@ -102,7 +102,7 @@ footer{
     display:flex;
     flex-direction:row;
     align-items:center;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 .spec .elem{
     background-color: #ffffff;
@@ -185,15 +185,12 @@ footer{
     display: flex;
     height: 400px;
     align-items:center;
-    /* background-color: aquamarine; */
-    padding: 0 1% 0 1%;
+    justify-content:space-between;
 }
 .pizza{
-    margin: 0 1% 0 1%;
-    flex: 0 1 25%;
     background-color: #ffffff;
     height: 370px;
-    max-width: 300px;
+    max-width: 240px;
     border-radius: 5px;
     display: flex;
     flex-direction:column;
