@@ -115,13 +115,13 @@ footer{
     text-align: ;
 }
 .spec .elem1{
-    background-image: url(/img/3pizza.jpg);
+    background-image: url(./img/3pizza.jpg);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: auto 100%;
 }
 .spec .elem2{
-    background-image: url(/img/cashback.jpg);
+    background-image: url(./img/cashback.jpg);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: auto 100%;
@@ -201,7 +201,6 @@ footer{
 .pizza .photo{
     flex-basis:70%;
     margin: 2%;
-    /* background-image: url(https://cdpiz1.pizzasoft.ru/rs/280x280/pizzafab/items/7/barbekyu-bolshaya-main_image-7176-28721.jpg); */
     background-repeat: round;
     max-height: 240px;
 }
