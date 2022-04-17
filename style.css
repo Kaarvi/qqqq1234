@@ -45,40 +45,24 @@ header{
     padding-right: 15px;
 }
 .b2 .element{
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 .korzina{
     background-color: #ff4500;
     padding: 5px;
     border-radius: 5px;
-    background-image: url(https://my-avon-belarus.by/images/2020/shop.png);
-    background-repeat: no-repeat;
-    background-position: 10% 0%;
-    background-size: auto 100%;
     color: #ffffffe6;
 }
+.korzina p{
+    display: inline-block;
+    padding-top: 5px;
+}
 .accaunt{
-    background-image: url(http://cdn.onlinewebfonts.com/svg/img_321577.png);
-    background-repeat: no-repeat;
-    background-position: 10% 0;
-    background-size: auto 80%;
+    padding-left: 20px;
     text-align: center;
-    
 }
 .logo{
-    background-image: url(https://i.pinimg.com/originals/5a/33/ca/5a33cabad985000cb8b44cf0e4731c7c.png);
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    background-size: auto 100%;
-    padding-left: 40px;
     font-size: x-large;
-}
-.GEO{
-    background-image: url(https://www.clipartmax.com/png/full/294-2942793_nearby-comments-geo-fence-icon-png.png);
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    background-size: auto 100%;
-    padding-left: 25px;
 }
 footer{
     background-color: #f5deb3;
@@ -96,63 +80,25 @@ footer{
     justify-content:space-around;
 }
 .elem_nav{
-    padding-top: 50px;
+    padding-top: 10px;
     text-align: center;
     background-color: #ffffff;
     height: 70px;
     width: 90px ;
     border-radius: 5px;
+    display:flex;
+    flex-direction:column;
 }
-.nav .elem1{
-    background-image: url(https://goryachie-foto.net/wp-content/uploads/2019/02/favicon.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-    background-size: auto 50%;
-}
-.nav .elem2{
-    background-image: url(https://sushi-dmitrov.ru/upload/iblock/aa1/aa117b8c88e358c603401e1a79140149.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-    background-size: auto 70%;
-}
-.nav .elem3{
-    background-image: url(https://creazilla-store.fra1.digitaloceanspaces.com/emojis/55741/sushi-emoji-clipart-md.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-    background-size: auto 50%;
-}
-.nav .elem4{
-    background-image: url(https://i.pinimg.com/originals/d7/95/aa/d795aaaaa386c4f3a4252615f8673f5b.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-    background-size: auto 50%;
-}
-.nav .elem5{
-    background-image: url(https://i.pinimg.com/originals/11/2b/99/112b99719243c427fd585cf395690ccf.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-    background-size: auto 50%;
-}
-.nav .elem6{
-    background-image: url(https://cdn4.iconfinder.com/data/icons/fast-food-menu-1/64/147_fast-food-menu-combo-lunch-512.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-    background-size: auto 60%;
-}
-.nav .elem7{
-    background-image: url(https://i.pinimg.com/originals/4c/c6/1a/4cc61aa0513a99540b2fa9eae10d29f8.png);
-    background-repeat: no-repeat;
-    background-position: 50% 35%;
-    background-size: auto 50%;
-}
-.nav .elem8{
-    background-image: url(https://cdn-icons-png.flaticon.com/512/1145/1145997.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-    background-size: auto 70%;
+.nav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.nav p {
+    padding-top: 5px;
 }
 .spec{
-    height: 250px;
+    height: 300px;
     display:flex;
     flex-direction:row;
     align-items:center;
@@ -160,25 +106,24 @@ footer{
 }
 .spec .elem{
     background-color: #ffffff;
-    height: 220px;
+    height: 250px;
     width: 220px ;
-    color: #000000;
+    color: #ffffff;
     border-radius: 10px;
-    font-size: medium;
-    padding: 180px 0 0 0;
-    text-align: center;
+    font-size: large;
+    padding: 195px 0 0 20px;
+    text-align: ;
 }
 .spec .elem1{
-    
-    background-image: url(https://thumbs.dreamstime.com/b/pizza-sausage-peppers-mushrooms-arugula-tomatoes-fragrant-cheese-vector-illustration-eps-62163401.jpg);
-    /* background-repeat: no-repeat; */
-    background-position: 0 -15px;
+    background-image: url(/img/3pizza.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
     background-size: auto 100%;
 }
 .spec .elem2{
-    background-image: url(https://avatars.mds.yandex.net/i?id=a406e451e40b41270a49d11dcb390913-4264709-images-thumbs&n=13);
+    background-image: url(/img/cashback.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    background-position: 0 0;
     background-size: auto 100%;
 }
 .prov_addres{
@@ -228,12 +173,13 @@ footer{
 }
 .pizza_bar .navig .elem3{
     background-color: #ffffff;
-    padding: 5px;
-    padding-left: 25px;
+    padding: 10px;
     border-radius: 3px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvZndoP3Maisi5mMEa7i_l4Xco5idlsAZ9qBy1Yi6kUJNjU2-Vn3YyJF-mjOPI9X5knaw&usqp=CAU);
-    background-repeat: no-repeat;
-    background-size: auto 100%;
+    display: inline-flex;
+
+}
+.pizza_bar .navig .elem3 p {
+    padding-left: 5px;
 }
 .pizza_bar .content{
     display: flex;
@@ -252,12 +198,10 @@ footer{
     display: flex;
     flex-direction:column;
 }
-.pizza .elem{
-}
 .pizza .photo{
     flex-basis:70%;
     margin: 2%;
-    background-image: url(https://cdpiz1.pizzasoft.ru/rs/280x280/pizzafab/items/7/barbekyu-bolshaya-main_image-7176-28721.jpg);
+    /* background-image: url(https://cdpiz1.pizzasoft.ru/rs/280x280/pizzafab/items/7/barbekyu-bolshaya-main_image-7176-28721.jpg); */
     background-repeat: round;
     max-height: 240px;
 }
